@@ -19,7 +19,6 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
 <body>
     <?php 
         $string = "Lorem ipsum dolor, sit amet consectetur ipsa elit. Enim a recusandae illum ipsam magnam exercitationem quia id ut voluptatem veritatis. Soluta, ipsa. Exercitationem debitis laboriosam quod ipsa molestiae repudiandae reiciendis.";
-        $_GET["bad_word"];
     ?>
 
     <p><?php echo $string . "\n" . strlen($string); ?></p>
